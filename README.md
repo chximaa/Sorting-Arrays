@@ -41,14 +41,11 @@ git clone https://github.com/chximaa/Sorting-Arrays.git
 
 2. Navigate to the folder:
 
-```bash
-cd sorting-algorithms-python
-```
-
 3. Run the program:
 
 ```bash
 python sort.py
+gcc sort.c -o sort
 ```
 
 4. Follow the menu to choose a sorting algorithm.
