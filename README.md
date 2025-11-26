@@ -39,14 +39,14 @@ for learning purposes.
 git clone https://github.com/chximaa/Sorting-Arrays.git
 ```
 
-3. Run the program:
+2. Run the program:
 
 ```bash
 python sort.py
 gcc sort.c -o sort
 ```
 
-4. Follow the menu to choose a sorting algorithm.
+3. Follow the menu to choose a sorting algorithm.
 
 ---
 
