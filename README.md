@@ -1,6 +1,6 @@
 # Sorting Algorithms in Python
 
-**Python program implementing 10 different sorting algorithms** with a menu-based interface.<br>
+**Python/C program implementing 10 different sorting algorithms** with a menu-based interface.<br>
 Each algorithm includes **English explanations, complexity, advantages, and disadvantages**<br> 
 for learning purposes.
 
