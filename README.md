@@ -39,8 +39,6 @@ for learning purposes.
 git clone https://github.com/chximaa/Sorting-Arrays.git
 ```
 
-2. Navigate to the folder:
-
 3. Run the program:
 
 ```bash
@@ -73,7 +71,7 @@ gcc sort.c -o sort
 
 * Python 3.x
 * No external libraries required
-
+* C compiler (GCC / Clang / MSVC).
 ---
 
 ## 📚 Learning Goals
