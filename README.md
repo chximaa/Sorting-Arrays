@@ -1,6 +1,6 @@
 # Sorting Algorithms in Python
 
-**Python/C program implementing 10 different sorting algorithms** with a menu-based interface.<br>
+**Python/C/C++ program implementing 10 different sorting algorithms** with a menu-based interface.<br>
 Each algorithm includes **English explanations, complexity, advantages, and disadvantages**<br> 
 for learning purposes.
 
@@ -31,24 +31,6 @@ for learning purposes.
 
 ---
 
-## 🖥 Usage
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/chximaa/Sorting-Arrays.git
-```
-
-2. Run the program:
-
-```bash
-python sort.py
-gcc sort.c -o sort
-```
-
-3. Follow the menu to choose a sorting algorithm.
-
----
 
 ## 📊 Complexity Overview
 
@@ -71,7 +53,7 @@ gcc sort.c -o sort
 
 * Python 3.x
 * No external libraries required
-* C compiler (GCC / Clang / MSVC).
+* C/C++ compiler (GCC / Clang / MSVC).
 ---
 
 ## 📚 Learning Goals
