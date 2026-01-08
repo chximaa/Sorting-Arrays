@@ -1,71 +1,106 @@
-# Sorting Algorithms in Python
 
-**Python/C/C++ program implementing 10 different sorting algorithms** with a menu-based interface.<br>
-Each algorithm includes **English explanations, complexity, advantages, and disadvantages**<br> 
-for learning purposes.
+# 🔢 Sorting Algorithms – Multi-Language Implementation (C / C++ / Java / Python)
 
----
+## 📌 Overview
 
-## ✅ Implemented Sorting Algorithms
+This project provides a **menu-based implementation of 10 classic sorting algorithms** <br>
+written in **four programming languages**:
 
-1. **Selection Sort**
-2. **Insertion Sort**
-3. **Bubble Sort**
-4. **Quick Sort**
-5. **Merge Sort**
-6. **Heap Sort**
-7. **Counting Sort**
-8. **Radix Sort**
-9. **Shell Sort**
-10. **Cocktail Shaker Sort**
+* **C**
+* **C++**
+* **Java**
+* **Python**
 
----
+The goal is to **learn, compare, and understand sorting algorithms** both **theoretically**<br>
+and **practically**, while also observing how the same logic is implemented across different languages.
 
-## 💡 Features
+Each implementation includes:
 
-* Fully interactive menu to select sorting type
-* Displays **step explanation** and **complexity analysis**
-* Handles arrays of integers
-* All algorithms written in **pure Python**
-* Copy of the array is used to avoid modifying the original list
+* A **menu-driven interface**
+* **Clear English explanations** of each algorithm
+* **Time complexity analysis**
+* **Advantages and disadvantages**
+* Interactive user input and output
 
 ---
 
+## 🧠 Implemented Sorting Algorithms
 
-## 📊 Complexity Overview
-
-| Algorithm | Time Complexity | Memory   | Stable |
-| --------- | --------------- | -------- | ------ |
-| Selection | O(n²)           | O(1)     | ❌     |
-| Insertion | O(n²)           | O(1)     | ✔️     |
-| Bubble    | O(n²)           | O(1)     | ✔️     |
-| Quick     | O(n log n) avg  | O(log n) | ❌     |
-| Merge     | O(n log n)      | O(n)     | ✔️     |
-| Heap      | O(n log n)      | O(1)     | ❌     |
-| Counting  | O(n + k)        | O(k)     | ✔️     |
-| Radix     | O(d*(n + k))    | O(n+k)   | ✔️     |
-| Shell     | O(n^1.3) avg    | O(1)     | ❌     |
-| Cocktail  | O(n²)           | O(1)     | ✔️     |
+1. Selection Sort
+2. Insertion Sort
+3. Bubble Sort
+4. Quick Sort
+5. Merge Sort
+6. Heap Sort
+7. Counting Sort
+8. Radix Sort
+9. Shell Sort
+10. Cocktail Shaker Sort
 
 ---
 
-## 🔧 Requirements
 
-* Python 3.x
-* No external libraries required
-* C/C++ compiler (GCC / Clang / MSVC).
+## 🚀 How to Run
+
+### 🔹 C
+
+```bash
+gcc sort.c -o sort
+./sort
+```
+
+### 🔹 C++
+
+```bash
+g++ sort.cpp -o sort_cpp
+./sort
+```
+
+### 🔹 Java
+
+```bash
+javac sort.java
+java sort
+```
+
+### 🔹 Python
+
+```bash
+python sort.py
+```
+
 ---
 
-## 📚 Learning Goals
+## 📋 Features
 
-* Understand the **implementation of classical sorting algorithms**
-* Compare **time and memory complexity**
-* Learn **advantages and disadvantages** of each algorithm
-* Explore **different algorithmic strategies** like divide-and-conquer, counting, and heap-based sorting
-
+* 📌 Same algorithms implemented across **4 languages**
+* 📘 Educational explanations before execution
+* 🔁 Original array preserved (sorting uses a copy)
+* 🧪 Works with user-defined input size
+* 💻 No external libraries required
 
 ---
 
-## ⚡ License
+## 📊 Example Output
 
-This project is licensed under the MIT License.
+```
+Merge Sort:
+Time Complexity: O(n log n)
+Advantages: Stable, predictable performance
+Disadvantages: Requires extra memory
+
+Sorted Array: [2, 4, 6, 8, 10]
+```
+
+---
+
+## 📚 Learning Objectives
+
+* Understand **algorithmic complexity**
+* Compare **language-specific implementations**
+* Distinguish **comparison vs non-comparison** sorting algorithms
+* Improve problem-solving and coding skills in multiple languages
+* Prepare for **exams and technical interviews**
+
+---
+
